@@ -1,0 +1,110 @@
+# Collaborate {.title-top-ice background-image="images/horst_penguins_telescope.png" aria-label="One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo moon in the night sky."}
+
+::: notes
+**Mine:** Much of my work, and I'm sure much of yours is collaborative.
+:::
+
+##  {#many-use-python .center .centered data-menu-title="Many use Python" background-color="#0F1620"}
+
+[Many scientists <br> use Python <br> 😬]{.larger}
+
+::: notes
+Many scientists use python and jupyter notebooks. So your collaborations might involve going across languages, but you likely are not looking to learn Python from the ground-up for a collaboration alone. 
+Additionally, if you're an R Markdown user, you might already either be running Python code via reticulate to keep your work in R Markdown, or feel like you need to give up on the R Markdown authoring experience in your collaborations across languages. Jupyter notebooks are an obvious place for reproducible authoring, and a place where Python users particularly feel at home. And when you feel "at home" in a computing environment, you rarely want to leave it just for the purpose of collaboration, and instead you just with your collaborator would leave theirs and come to yours.
+
+So, let's take a pulse first.
+:::
+
+## Poll
+
+slido.com / #quarto
+
+```{=html}
+<iframe src="https://app.sli.do/event/iuAVtTaSewZqtSNRd5ZmZB/embed/polls/f3363a5e-3c44-439a-bb20-c07aac8328fd" width="1000" height="700"></iframe>
+```
+
+## Quarto enables collaborating <br>across coding languages {.takeaway .center highlight-style="github"}
+
+\
+
+::: {.code-file .sourceCode .cell-code}
+{{< fa file >}} _quarto.yml
+:::
+
+``` {.yaml code-line-numbers="2,4,8,11"}
+contents:
+  - section: in-development/index.qmd
+    contents:
+      - in-development/earthdata-access-demo.ipynb
+      - in-development/nsidc/icesat2-cmr-onprem-vs-cloud.ipynb
+      - in-development/lpdaac/lpdaac_ecostress_lste_kerchunk.ipynb
+      - in-development/matlab-aws.qmd
+      - in-development/earthdata-python-r-handoff.rmd  
+  - section: contributing/onboarding.qmd
+    contents: 
+      - contributing/quarto-website-tutorial.md
+```
+
+::: notes
+Quarto enables collaborating across coding languages. This is a simplified view of the yaml it's collection of different file types. It's mostly ipynbs Jupyter notebooks.
+
+And, as we work with more research teams we've found that there is indeed a substantial R community using NASA Earthdata Cloud data. And we're positioned to support R users too
+:::
+
+## Quarto enables contributing <br>from our current tools {.takeaway .center}
+
+::: centered
+::: columns
+::: {.column width="45%"}
+::: borderbox
+![](images/2-collaborate/tools-rstudio-ide.png){fig-alt="Screenshot of RStudio IDE" width="80%"}
+:::
+:::
+
+::: {.column width="45%"}
+::: borderbox
+![](images/2-collaborate/tools-jupyterhub.png){fig-alt="Screenshot of Jupyter Lab" width="80%"}
+:::
+:::
+:::
+
+::: columns
+::: {.column width="45%"}
+::: borderbox
+![](images/2-collaborate/tools-github-ide.png){fig-alt="Screenshot of GitHub IDE" width="80%"}
+:::
+:::
+
+::: {.column width="45%"}
+::: borderbox
+![](images/2-collaborate/tools-vscode-ide.png){fig-alt="Screenshot of VS Code IDE" width="80%"}
+:::
+:::
+:::
+:::
+
+::: notes
+With Quarto, you're able to contribute from whatever tool you're already comfortable with,whether that's the RStudio IDE, JupyterLab, VS Code, or directly editing documents on GitHub.
+
+This is so important because doing science is already challenging and and we don't also need people to shift their software tools to be able to participate in the work.
+
+transtion: Let me show you how to use Quarto with Jupyter with ipynb notebooks.
+:::
+
+##  {#demo-collaborate .center data-menu-title="Demo: Collaborate" background-color="#FFFFFF"}
+
+```{=html}
+<script src="https://fast.wistia.com/embed/medias/dfyjy1v1aw.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_dfyjy1v1aw videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/dfyjy1v1aw/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+```
+
+::: notes
+-   Orient to JupyterLab. This is a JupyterHub managed by our collaborators at 2i2c
+-   Open Mine's example site, quarto preview
+- add .ipynb 
+-   Add `.ipynb` to `_quarto.yml`
+-   View website - new page is added to website
+-  Add fig captions
+- margin plots: a style preferred by many now in jupyter notebook
+
+Native multi-language support has implications for teaching as well. So I'll now shift gears to talk a bit about teaching next.
+:::

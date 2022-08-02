@@ -1,0 +1,181 @@
+---
+pagetitle: "Hello Quarto"
+format: 
+  revealjs: 
+    theme: style.scss
+    multiplex: true
+    transition: fade
+    height: 900
+    width: 1600
+    fontcolor: "#262d36"
+    highlight-style: a11y
+    code-line-numbers: false
+editor: visual
+---
+
+##  {#hello-quarto-title data-menu-title="Hello Quarto" background-image="images/horst_penguins_telescope.png" aria-label="One penguin standing on another penguin's shoulders in a snowscape, looking through a telescope at a Quarto logo moon in the night sky."}
+
+[Hello Quarto]{.custom-title}
+
+[Coronavirus Visualization Team / Aug 2022]{.custom-subtitle}
+
+[mine çetinkaya-rundel]{.custom-author}
+
+[[mine.quarto.pub/hello-quarto-cvt](https://mine.quarto.pub/hello-quarto-cvt)]{.custom-url}
+
+::: notes
+Thank you so much, we're excited to be here!
+I have been using, teaching, and contributing to the development of Quarto over the last year.
+As I've woven it into my work I realized that I love it, and I'm very thrilled to talk to you about it today.
+:::
+
+## Acknowledgements {.center .centered background-color="#0F1620"}
+
+<br>
+
+Julia Stewart Lowndes, Phd
+
+<br>
+
+Artwork by Allison Horst
+
+# Hello, Quarto? {.title-top-light background-image="images/horst-quarto-meteor-transparent.png" aria-label="A meteor where the head of the meteor is the Quarto logo."}
+
+::: notes
+You might be wondering -- What is Quarto?
+Why is Quarto?
+And how does it relate to R Markdown and the workflows you already have?
+
+--\> Well
+:::
+
+##  {#unifies-extends-1 .centered data-menu-title="Unifies and extends 1" background-color="#0F1620" auto-animate="true"}
+
+::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
+Quarto **unifies** and **extends**<br>the R Markdown ecosystem
+:::
+
+::: notes
+Quarto unifies & extends the R Markdown ecosystem.
+:::
+
+##  {#unifies-extends-2 .centered data-menu-title="Unifies and extends 2" background-color="#0F1620" auto-animate="true"}
+
+::: {style="margin-top: 100px; font-size: 2.2em; color: #75AADB"}
+Quarto **unifies** and **extends** <br>the R Markdown ecosystem
+:::
+
+<br>
+
+::: large
+**unifies** for people who love R Markdown
+:::
+
+<br>
+
+::: {.fragment .fade-up .large fragment-index="2"}
+**extends** for people who don't know R Markdown
+:::
+
+::: notes
+It unifies it for people who love R Markdown by reducing little points of friction, so that websites, books, and slides all have a common approach.
+
+And it extends it for people who don't know RMarkdown by being a friendly way to work reproducibly and publish documents that have text and code in the same place
+:::
+
+## Poll
+
+slido.com / #quarto
+
+```{=html}
+<iframe src="https://app.sli.do/event/iuAVtTaSewZqtSNRd5ZmZB/embed/polls/91a54a9c-4e3a-4015-a185-f6a5fc4642fb" width="1000" height="700"></iframe>
+```
+##  {#publishing-system-1 .centered data-menu-title="Publishing system 1" background-color="#0F1620" auto-animate="true"}
+
+::: {style="margin-top: 100px; font-size: 3em; color: #75AADB;"}
+Quarto is a new, open-source,<br> scientific and technical<br> publishing system
+:::
+
+::: notes
+Quarto is a new open-source scientific and technical publishing system.
+:::
+
+##  {#publishing-system-2 .centered data-menu-title="Publishing system 2" background-color="#0F1620" auto-animate="true"}
+
+::: {style="margin-top: 50px; font-size: 2em; color: #75AADB"}
+Quarto is a new, open-source,<br> scientific and technical<br> publishing system
+:::
+
+::: midi
+**the goal is to make the process of creating**<br> and collaborating dramatically better
+:::
+
+::: {.fragment .fade-up}
+![](images/horst_quarto_schematic.png){fig-align="center" width="1100px" fig-alt="A schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto."}
+:::
+
+::: notes
+The goal is to make the process of creating and collaborating dramatically better.
+
+--\> It handles inputs in multiple languages, and outputs in multiple formats, all going through the same machinery.
+:::
+
+::: notes
+First Mine will focus on how Quarto unifies the R Markdown ecosystem through stories of sharing and teaching
+:::
+
+##  {#outline-3 .centered data-menu-title="Outline 3" auto-animate="true"}
+
+![](images/outline-3.png){fig-alt="Quarto logo with all four quadrants labelled as Share, Collaborate, Teach, and Reimagine."}
+
+::: notes
+I'm going to introduce Quarto in four acts -- Share, Collaborate, Teach, and Reimagine.
+Each with a story and a demo.
+So, let's get started.
+:::
+
+{{< include _1-share.qmd >}}
+
+{{< include _2-collaborate.qmd >}}
+
+{{< include _3-teach.qmd >}}
+
+{{< include _4-reimagine.qmd >}}
+
+# Thank you {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png"}
+
+[[mine.quarto.pub/hello-quarto-cvt](https://mine.quarto.pub/hello-quarto-cvt)]{.custom-url-middle-dark}
+
+::: notes
+Thank you so much for joining this morning.
+This was an introduction to Quarto from the perspective of sharing, collaborating, teaching, and reimagining.
+I've only managed to scratch the surface of Quarto's features so I invite you to dig deeper into the documentation and tutorials and play with it yourself.
+The slides for the talk are at the link above.
+And if you go there and proceed to the next slide you'll find many useful resources, including the source code for the site we built in the demos.
+While Quarto is stable and ready for use, it's also a baby that you too can be a part of its growth.
+So start using Quarto, and get involved by asking questions, reporting issues, providing feedback, and even building extensions for it.
+We can't wait to see what you create!
+:::
+
+## Say hello to Quarto!
+
+-   Pick up where we left off:
+
+    -   Site: [mine.quarto.pub/hello-quarto-demo](https://mine.quarto.pub/hello-quarto-demo)
+    -   Source code: [github.com/mine-cetinkaya-rundel/hello-quarto-demo](https://github.com/mine-cetinkaya-rundel/hello-quarto-demo)
+
+-   Source code for these slides: [github.com/mine-cetinkaya-rundel/hello-quarto-cvt](https://github.com/mine-cetinkaya-rundel/hello-quarto-cvt)
+
+-   Quarto documentation: [quarto.org](https://quarto.org/)
+
+-   Video: [Reproducible authoring with Quarto](https://youtu.be/6p4vOKS6Xls)
+
+-   Video: [Openscapes: Hello Quarto with NASA Openscapes, RLadies Santa Barbara, and JJ Allaire](https://youtu.be/azVAl343CIU)
+
+-   Tutorial: [rstudio-conf-2022.github.io/get-started-quarto](https://rstudio-conf-2022.github.io/get-started-quarto/)
+
+-   Quarto gallery: [quarto.org/docs/gallery](https://quarto.org/docs/gallery/)
+
+-   Quarto tip a day: [rstd.io/quartotip](https://rstd.io/quartotip)
+
+![](images/horst-quarto-penguins.png){fig-alt="Two penguins. The orange one is holding the Quarto logo. The blue one is looking at the orange one." fig-align="right" width="600"}

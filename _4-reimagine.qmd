@@ -1,0 +1,71 @@
+# Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png" aria-label="Two excited penguins diving off of an iceberg into the ocean. A Quarto logo moon in the sky is reflected in the water that they're diving into."}
+
+::: notes
+So now let's take one more leap to thinking about reimagining with Quarto.
+:::
+
+##  {#openscapes-intro data-menu-title="Openscapes Intro 1" background-color="#0F1620" background-image="images/horst_openscapes_champions.jpg" background-size="contain" background-position="bottom right" fig-alt="Illustration of a grassy field by an ocean, there’s a river that meanders from the midground to the background on the right hand side. There are mountains in the background. The Openscapes hex logo is in the top left hand corner. In the foreground there are many animals: hermit crab working alone on a laptop, a sad rabbit on a laptop under a raincloud, a frustrated skunk on a laptop under a raincloud. Just over a bush is another group of animals: a fox with a welcome sign stands with a hedgehog holding map brochures In front of a larger park map. The fox and hedgehog are in front of a group of animals: a heron, a squirrel, a mouse holding a notebook, a raccoon, a snake, and a quail. In the midground, there’s a turtle, deer, owl and beaver by the river that has stepping stone rocks across. A roadrunner, lizard, blue bird, and rabbit, are walking down a path together, one of the other paths is blocked by a log. There’s a rowboat on the edge of the water. In the background, a duck, turtle, red squirrel, fox, and raven are walking single file over a wooden bridge that crosses the river. Most of the animals have coloured bandanas tied around their necks and a few are wearing hats. Up in the sky, there’s a satellite. Overlaid on the image is the OpenScapes hex logo."}
+
+::: notes
+And as I invite you to reimagine a future of open science, I want to give all a huge shoutout to my friend and colleague Julia Stewart Lowndes, who launched Openscapes along with her partner Erin Robinson in 2018. The flagship activity of Openscapes is mentoring research teams in open science.
+They help people move from the sad lonely animals like the foreground in the bottom right so that they start to explore and navigate this landscape safely, without too much trampling.
+It's difficult for me to explain the fantastic and deep work Openscapes does in just a few soundbytes, so instead I'll share with you a quote from Ileana Fenwick, who is a marine ecologist who participated in Openscapes last year.
+:::
+
+##  {#quote-ileana-fenwick data-menu-title="Quote: Ileana Fenwick" background-image="images/4-reimagine/fenwick-scuba.jpg"}
+
+::: quotebox-transparent-bottom-right
+Because of Openscapes, I have renewed hope in how we can bring about a kinder future in science. I see a commitment in the open science community to bridging the gaps where we've left members of our community behind, and it inspires me.
+
+::: quote-source
+Ileana Fenwick\
+University of North Carolina, Openscapes
+:::
+:::
+
+##  {#faylab-manual-1 data-menu-title="FayLab Manual 1" background-color="#0F1620" .centered}
+
+::: borderbox
+[![](images/4-reimagine/faylab-labmanual.png){width="60%" fig-alt="Screenshot of a Quarto site that is a lab manual of shared practices"}](https://thefaylab.github.io/lab-manual)
+::: 
+
+[thefaylab.github.io/lab-manual](https://thefaylab.github.io/lab-manual/)
+
+::: notes
+Here is a practical example of how we can bring about a kinder future in science.
+This is the Fay Lab Manual -- a site created by Gavin Fay's Group UMass Dartmouth, a quantitative fisheries ecology lab group.
+This site includes information on lab culture, code of conduct, info about how they name files, how to learn the software they use.
+They transparently and clearly outline their practices, and don't assume that people come in knowing this stuff or that they can figure them out on their own.
+It makes the implicit explicit and onboards learners as contributors.
+This is great practice because formal training in data science is uncommon among environmental scientists, and people are bound to come in with a range of skills.
+So let's showcase one more way Quarto can play a role in this approach of onboarding learners as contributors.
+:::
+
+## Quarto enables collaborating <br>across coding comfort levels {.takeaway .center}
+
+::: borderbox
+![](images/4-reimagine/visual_editor.png){fig-align="center" width="70%" fig-alt="RStudio IDE"}
+:::
+
+::: notes
+Quarto enables collaborating across coding comfort levels, which means it's a friendly tool and that we can broaden our idea of collaborators substantially and earlier.
+
+One way Quarto and the RStudio IDE facilitates this is via the visual editor, which I'll do one final demo of.
+
+I'd like to note that while the visual editor is friendly for new learners, it is also a great tool for experienced users. I love using the visual editor for authoring and I'll show you in a second why! As you watch the demo I encourage you to think about how you might use this yourself and also teach it to a new student or a colleague.
+:::
+
+##  {#demo-reimagine .center data-menu-title="Demo: Reimagine" background-color="#FFFFFF"}
+
+```{=html}
+<script src="https://fast.wistia.com/embed/medias/jkxevpg30t.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_jkxevpg30t videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/jkxevpg30t/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+```
+
+::: notes
+-   i can write and paste formatted text
+-   Add image, caption, alt text
+-   source editor
+-   citations 2 ways: \@ from my Zotero, forward-slash citation for doi
+-   Also: Call-outs
+-   Add extension
+:::
